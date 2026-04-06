@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio NFCC</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      width: fit-content;
+      margin: 20px auto;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #94a3b8;
+      padding: 8px 15px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #38bdf8;
+      color: white;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 20px;
+      gap: 40px;
+    }
+
+    .hero-text h1 {
+      font-size: 48px;
+    }
+
+    .hero-text h2 {
+      color: #38bdf8;
+      margin: 10px 0;
+    }
+
+    .hero-text p {
+      color: #cbd5f5;
+      max-width: 500px;
+      margin-top: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #38bdf8;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0ea5e9;
+    }
+
+    .hero-img img {
+      width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(56,189,248,0.5);
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    h3 {
+      margin-bottom: 15px;
+      color: #38bdf8;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 15px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      background: #020617;
+    }
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Hi, I'm Irsyad</h1>
+      <h2>Cyber Security Enthusiast</h2>
+      <p>
+        Saya merupakan pembelajar mandiri yang berfokus untuk mengembangkan karier
+         di bidang Cyber Security. Ketertarikan saya bermula dari keinginan memahami
+          cara kerja serta mekanisme perlindungan suatu sistem. Saat ini, saya sedang 
+           mempelajari dasar-dasar keamanan digital, termasuk jaringan komputer (networking),
+            sistem operasi Linux, serta konsep dasar pertahanan siber.
+      </p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+
+    <div class="hero-img">
+      <img src="irsyad.jpg" alt="profile">
+    </div>
+  </div>
+
+  <section id="about">
+    <h3>About Me</h3>
+    <div class="card">
+      <p>
+        Saya memiliki minat besar dalam memahami bagaimana sistem bekerja dan bagaimana melindunginya dari ancaman siber.
+        Saya terus belajar dan mengembangkan skill untuk menjadi profesional di bidang cyber security.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h3>Skills</h3>
+    <div class="card">
+      <ul>
+        <li>Problem Solving</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Contact</h3>
+    <div class="card">
+      <p>Email: 0110225116@student.nurulfikri.ac.id</p>
+      <p>Instagram: @icad</p>
+      <p>Whatsapp: 085880505439</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Portfolio NFCC</p>
+  </footer>
+
+</body>
+</html>
